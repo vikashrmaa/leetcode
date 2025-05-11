@@ -3,6 +3,6 @@ class Solution:
         newstr = str(x)
         if newstr == newstr[::-1]:
             return True 
-        return False
-        
+        else:
+            return False
             

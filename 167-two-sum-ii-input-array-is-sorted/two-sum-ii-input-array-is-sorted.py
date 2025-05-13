@@ -10,3 +10,5 @@ class Solution:
             else:
                 return [l + 1, r + 1]
             
+    #looks like two sum but two pointer will only work if the array is sorted.
+    

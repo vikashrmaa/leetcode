@@ -1,14 +1,14 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         n = len(numbers)
-        l, r = 0, n-1
-        while l <= r:
+        l = 0
+        r = n - 1
+        while l < r:
             if numbers[l] + numbers[r] < target:
                 l = l + 1
             elif numbers[l] + numbers[r] > target:
                 r = r - 1
             else:
-                return [l + 1, r + 1]
-            
-    #looks like two sum but two pointer will only work if the array is sorted.
-    
+                return [ l + 1 , r + 1 ]
+
+

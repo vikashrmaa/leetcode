@@ -6,4 +6,3 @@ class Solution:
             if diff in hashmap:
                 return [hashmap[diff], i]
             hashmap[n] = i
-                 

@@ -3,7 +3,7 @@ class Solution(object):
         check = set()
         for i in nums:
             if i in check:
-                return True
+                return True 
             else:
                 check.add(i)
         return False

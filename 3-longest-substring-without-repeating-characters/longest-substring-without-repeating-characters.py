@@ -8,6 +8,7 @@ class Solution:
                 check.remove(s[l])
                 l += 1
             check.add(s[r])
-            ans = max(ans, r-l+1)
-        return ans       
+            ans = max(ans, r-l + 1)
+        return ans
+          
         

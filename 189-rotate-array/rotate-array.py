@@ -3,10 +3,9 @@ class Solution:
         k = k % len(nums)
         array = []
         for i in range(len(nums) - k, len(nums)):
-            array.append(nums[i])  # last k elements
+            array.append(nums[i])  
         for i in range(len(nums) - k):
-            array.append(nums[i])  # first len-k elements
-        # In-place update
+            array.append(nums[i])  
         for i in range(len(nums)):
             nums[i] = array[i]
 
